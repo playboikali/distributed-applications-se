@@ -1,0 +1,840 @@
+2024-05-24 14:43:56.996 +03:00 [INF] Application is starting!
+2024-05-24 14:43:58.101 +03:00 [FTL] Unhandled exception!
+System.ArgumentException: GenericArguments[1], 'Microsoft.AspNetCore.Identity.IdentityRole', on 'Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`4[TUser,TRole,TContext,TKey]' violates the constraint of type 'TRole'.
+ ---> System.TypeLoadException: GenericArguments[1], 'Microsoft.AspNetCore.Identity.IdentityRole', on 'Microsoft.AspNetCore.Identity.UserStoreBase`8[TUser,TRole,TKey,TUserClaim,TUserRole,TUserLogin,TUserToken,TRoleClaim]' violates the constraint of type parameter 'TRole'.
+   at System.RuntimeTypeHandle.Instantiate(Type[] inst)
+   at System.RuntimeType.MakeGenericType(Type[] instantiation)
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.ValidateGenericArguments(MemberInfo definition, RuntimeType[] genericArguments, Exception e)
+   at System.RuntimeType.MakeGenericType(Type[] instantiation)
+   at Microsoft.Extensions.DependencyInjection.IdentityEntityFrameworkBuilderExtensions.AddStores(IServiceCollection services, Type userType, Type roleType, Type contextType)
+   at Microsoft.Extensions.DependencyInjection.IdentityEntityFrameworkBuilderExtensions.AddEntityFrameworkStores[TContext](IdentityBuilder builder)
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 114
+2024-05-24 15:07:22.018 +03:00 [INF] Application is starting!
+2024-05-24 15:07:22.093 +03:00 [FTL] Unhandled exception!
+System.ArgumentException: GenericArguments[1], 'Microsoft.AspNetCore.Identity.IdentityRole', on 'Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`4[TUser,TRole,TContext,TKey]' violates the constraint of type 'TRole'.
+ ---> System.TypeLoadException: GenericArguments[1], 'Microsoft.AspNetCore.Identity.IdentityRole', on 'Microsoft.AspNetCore.Identity.UserStoreBase`8[TUser,TRole,TKey,TUserClaim,TUserRole,TUserLogin,TUserToken,TRoleClaim]' violates the constraint of type parameter 'TRole'.
+   at System.RuntimeTypeHandle.Instantiate(Type[] inst)
+   at System.RuntimeType.MakeGenericType(Type[] instantiation)
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.ValidateGenericArguments(MemberInfo definition, RuntimeType[] genericArguments, Exception e)
+   at System.RuntimeType.MakeGenericType(Type[] instantiation)
+   at Microsoft.Extensions.DependencyInjection.IdentityEntityFrameworkBuilderExtensions.AddStores(IServiceCollection services, Type userType, Type roleType, Type contextType)
+   at Microsoft.Extensions.DependencyInjection.IdentityEntityFrameworkBuilderExtensions.AddEntityFrameworkStores[TContext](IdentityBuilder builder)
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 114
+2024-05-24 17:52:15.102 +03:00 [INF] Application is starting!
+2024-05-24 17:52:15.232 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 135
+2024-05-24 17:52:27.851 +03:00 [INF] Application is starting!
+2024-05-24 17:52:27.988 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 135
+2024-05-24 18:02:15.559 +03:00 [INF] Application is starting!
+2024-05-24 18:02:15.697 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 135
+2024-05-24 18:02:25.249 +03:00 [INF] Application is starting!
+2024-05-24 18:02:25.387 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 135
+2024-05-24 18:30:41.944 +03:00 [INF] Application is starting!
+2024-05-24 18:30:42.085 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 126
+2024-05-24 18:30:50.747 +03:00 [INF] Application is starting!
+2024-05-24 18:30:50.866 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 126
+2024-05-24 18:33:11.210 +03:00 [INF] Application is starting!
+2024-05-24 18:33:11.338 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 125
+2024-05-24 18:33:17.500 +03:00 [INF] Application is starting!
+2024-05-24 18:33:17.614 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Program.cs:line 125
+2024-05-24 18:40:56.171 +03:00 [INF] Application is starting!
+2024-05-24 18:40:56.726 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2024-05-24 18:40:56.807 +03:00 [DBG] Hosting starting
+2024-05-24 18:40:56.842 +03:00 [INF] User profile is available. Using 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-24 18:40:56.846 +03:00 [DBG] Reading data from file 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys\key-b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc.xml'.
+2024-05-24 18:40:56.875 +03:00 [DBG] Found key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc}.
+2024-05-24 18:40:56.886 +03:00 [DBG] Considering key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} with expiration date 2024-08-20 10:36:09Z as default key.
+2024-05-24 18:40:56.889 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 18:40:56.891 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-24 18:40:56.893 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 18:40:56.897 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-24 18:40:56.899 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-24 18:40:56.902 +03:00 [DBG] Using key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} as the default key.
+2024-05-24 18:40:56.907 +03:00 [DBG] Key ring with default key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} was loaded during application startup.
+2024-05-24 18:40:57.048 +03:00 [INF] Now listening on: http://localhost:5105
+2024-05-24 18:40:57.049 +03:00 [DBG] Loaded hosting startup assembly GL.WebAPI
+2024-05-24 18:40:57.050 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-24 18:40:57.051 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-24 18:40:57.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-24 18:40:57.052 +03:00 [INF] Hosting environment: Development
+2024-05-24 18:40:57.053 +03:00 [INF] Content root path: D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary
+2024-05-24 18:40:57.054 +03:00 [DBG] Hosting started
+2024-05-24 18:40:57.255 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" accepted.
+2024-05-24 18:40:57.255 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" accepted.
+2024-05-24 18:40:57.314 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" started.
+2024-05-24 18:40:57.314 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" started.
+2024-05-24 18:40:57.314 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" received FIN.
+2024-05-24 18:40:57.314 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" received FIN.
+2024-05-24 18:40:57.324 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" sending FIN because: "The client closed the connection."
+2024-05-24 18:40:57.324 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" sending FIN because: "The client closed the connection."
+2024-05-24 18:40:57.327 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" disconnecting.
+2024-05-24 18:40:57.327 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" disconnecting.
+2024-05-24 18:40:57.332 +03:00 [DBG] Connection id "0HN3S0VJQ4DGD" stopped.
+2024-05-24 18:40:57.332 +03:00 [DBG] Connection id "0HN3S0VJQ4DGC" stopped.
+2024-05-24 18:40:58.450 +03:00 [DBG] Connection id "0HN3S0VJQ4DGE" accepted.
+2024-05-24 18:40:58.452 +03:00 [DBG] Connection id "0HN3S0VJQ4DGE" started.
+2024-05-24 18:40:58.452 +03:00 [DBG] Connection id "0HN3S0VJQ4DGF" accepted.
+2024-05-24 18:40:58.454 +03:00 [DBG] Connection id "0HN3S0VJQ4DGF" started.
+2024-05-24 18:40:58.509 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - -
+2024-05-24 18:40:58.603 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-24 18:40:58.634 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-24 18:40:58.636 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:40:58.755 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-24 18:40:58.884 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-24 18:40:58.885 +03:00 [DBG] Connection id "0HN3S0VJQ4DGE" completed keep alive response.
+2024-05-24 18:40:58.889 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - - - 200 - text/html;charset=utf-8 382.0786ms
+2024-05-24 18:40:58.989 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - -
+2024-05-24 18:40:58.990 +03:00 [DBG] Connection id "0HN3S0VJQ4DGG" accepted.
+2024-05-24 18:40:58.990 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - -
+2024-05-24 18:40:58.991 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-05-24 18:40:58.992 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" accepted.
+2024-05-24 18:40:58.991 +03:00 [DBG] Connection id "0HN3S0VJQ4DGG" started.
+2024-05-24 18:40:58.996 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:40:58.997 +03:00 [DBG] Connection id "0HN3S0VJQ4DGI" accepted.
+2024-05-24 18:40:58.995 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-05-24 18:40:59.002 +03:00 [DBG] Connection id "0HN3S0VJQ4DGI" started.
+2024-05-24 18:40:59.001 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - -
+2024-05-24 18:40:58.997 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" started.
+2024-05-24 18:40:59.003 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:40:59.004 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - -
+2024-05-24 18:40:59.004 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-05-24 18:40:59.005 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_vs/browserLink - -
+2024-05-24 18:40:59.007 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:40:59.008 +03:00 [DBG] Connection id "0HN3S0VJQ4DGI" completed keep alive response.
+2024-05-24 18:40:59.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.4251ms
+2024-05-24 18:40:59.018 +03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-05-24 18:40:59.018 +03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-05-24 18:40:59.018 +03:00 [INF] The file /swagger-ui.css was not modified
+2024-05-24 18:40:59.022 +03:00 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2024-05-24 18:40:59.022 +03:00 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2024-05-24 18:40:59.022 +03:00 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2024-05-24 18:40:59.023 +03:00 [DBG] Connection id "0HN3S0VJQ4DGG" completed keep alive response.
+2024-05-24 18:40:59.024 +03:00 [DBG] Connection id "0HN3S0VJQ4DGF" completed keep alive response.
+2024-05-24 18:40:59.025 +03:00 [DBG] Connection id "0HN3S0VJQ4DGE" completed keep alive response.
+2024-05-24 18:40:59.025 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - - - 304 - text/javascript 24.4926ms
+2024-05-24 18:40:59.026 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - - - 304 - text/javascript 36.0546ms
+2024-05-24 18:40:59.027 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - - - 304 - text/css 37.2527ms
+2024-05-24 18:40:59.131 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" completed keep alive response.
+2024-05-24 18:40:59.132 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.5191ms
+2024-05-24 18:41:00.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - -
+2024-05-24 18:41:00.028 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-24 18:41:00.029 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:41:00.144 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" completed keep alive response.
+2024-05-24 18:41:00.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 117.7524ms
+2024-05-24 18:41:36.122 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/register application/json 83
+2024-05-24 18:41:36.131 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/register'
+2024-05-24 18:41:36.137 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)' with route pattern 'api/Authentication/register' is valid for the request path '/api/Authentication/register'
+2024-05-24 18:41:36.138 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:41:36.139 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 18:41:36.837 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 18:41:36.842 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:41:36.873 +03:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(GL.ApplicationServices.DTOs.UserRegistrationDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 18:41:36.877 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 18:41:36.878 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 18:41:36.879 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 18:41:36.881 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 18:41:36.882 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 18:41:36.885 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:41:37.007 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-24 18:41:37.026 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:41:37.032 +03:00 [DBG] Attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' ...
+2024-05-24 18:41:37.036 +03:00 [DBG] Attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' using the name '' in request data ...
+2024-05-24 18:41:37.039 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 18:41:37.077 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH", Request id "0HN3S0VJQ4DGH:00000003": started reading request body.
+2024-05-24 18:41:37.078 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH", Request id "0HN3S0VJQ4DGH:00000003": done reading request body.
+2024-05-24 18:41:37.083 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'
+2024-05-24 18:41:37.085 +03:00 [DBG] Done attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:41:37.086 +03:00 [DBG] Done attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:41:37.087 +03:00 [DBG] Attempting to validate the bound parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' ...
+2024-05-24 18:41:37.098 +03:00 [DBG] Done attempting to validate the bound parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:41:37.629 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 18:41:37.655 +03:00 [DBG] 'GameLibraryDbContext' generated a temporary value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:41:37.706 +03:00 [DBG] Context 'GameLibraryDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:41:37.711 +03:00 [DBG] SaveChanges starting for 'GameLibraryDbContext'.
+2024-05-24 18:41:37.715 +03:00 [DBG] DetectChanges starting for 'GameLibraryDbContext'.
+2024-05-24 18:41:37.727 +03:00 [DBG] DetectChanges completed for 'GameLibraryDbContext'.
+2024-05-24 18:41:37.776 +03:00 [DBG] Creating DbConnection.
+2024-05-24 18:41:37.798 +03:00 [DBG] Created DbConnection. (20ms).
+2024-05-24 18:41:37.802 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:41:37.990 +03:00 [DBG] Opened connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:41:37.998 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 18:41:38.005 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-05-24 18:41:38.013 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2024-05-24 18:41:38.022 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [Email], [IsActivated], [Password], [UpdatedBy], [UpdatedOn], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-24 18:41:38.098 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [Email], [IsActivated], [Password], [UpdatedBy], [UpdatedOn], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-24 18:41:38.117 +03:00 [DBG] The foreign key property 'User.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-05-24 18:41:38.126 +03:00 [DBG] Closing data reader to 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:41:38.132 +03:00 [DBG] A data reader for 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' is being disposed after spending 27ms reading results.
+2024-05-24 18:41:38.137 +03:00 [DBG] Closing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:41:38.144 +03:00 [DBG] Closed connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' (6ms).
+2024-05-24 18:41:38.154 +03:00 [DBG] An entity of type 'User' tracked by 'GameLibraryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:41:38.156 +03:00 [DBG] SaveChanges completed for 'GameLibraryDbContext' with 1 entities written to the database.
+2024-05-24 18:41:38.161 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-24 18:41:38.163 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-05-24 18:41:38.164 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-24 18:41:38.165 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-24 18:41:38.166 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-24 18:41:38.168 +03:00 [INF] Executing OkObjectResult, writing value of type 'GL.ApplicationServices.DTOs.UserDTO'.
+2024-05-24 18:41:38.179 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI) in 1292.6937ms
+2024-05-24 18:41:38.180 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:41:38.182 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" completed keep alive response.
+2024-05-24 18:41:38.184 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 18:41:38.187 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:41:38.189 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-05-24 18:41:38.190 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/register application/json 83 - 200 - application/json;+charset=utf-8 2068.4342ms
+2024-05-24 18:42:00.631 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51
+2024-05-24 18:42:00.634 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/login'
+2024-05-24 18:42:00.635 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)' with route pattern 'api/Authentication/login' is valid for the request path '/api/Authentication/login'
+2024-05-24 18:42:00.637 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:42:00.638 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 18:42:00.644 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 18:42:00.645 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:42:00.651 +03:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(GL.ApplicationServices.DTOs.UserLoginDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 18:42:00.653 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 18:42:00.654 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 18:42:00.655 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 18:42:00.657 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 18:42:00.658 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 18:42:00.659 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:42:00.661 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:42:00.668 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:42:00.670 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' using the name '' in request data ...
+2024-05-24 18:42:00.671 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 18:42:00.673 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH", Request id "0HN3S0VJQ4DGH:00000004": started reading request body.
+2024-05-24 18:42:00.674 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH", Request id "0HN3S0VJQ4DGH:00000004": done reading request body.
+2024-05-24 18:42:00.676 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserLoginDTO'
+2024-05-24 18:42:00.677 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:42:00.678 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:42:00.680 +03:00 [DBG] Attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:42:00.684 +03:00 [DBG] Done attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:42:00.776 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 18:42:00.822 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Username == __username_0)'
+2024-05-24 18:42:00.977 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedBy (int) Required, 1], [Property: User.CreatedOn (DateTime) Required, 2], [Property: User.Email (string) Required MaxLength(100), 3], [Property: User.IsActivated (bool) Required, 4], [Property: User.Password (string) Required MaxLength(100), 5], [Property: User.UpdatedBy (int?), 6], [Property: User.UpdatedOn (DateTime?), 7], [Property: User.Username (string) Required MaxLength(50), 8] }
+            SELECT TOP(1) u.Id, u.CreatedBy, u.CreatedOn, u.Email, u.IsActivated, u.Password, u.UpdatedBy, u.UpdatedOn, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        GL.Data.Contexts.GameLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-05-24 18:42:01.008 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 18:42:01.009 +03:00 [DBG] Creating DbConnection.
+2024-05-24 18:42:01.010 +03:00 [DBG] Created DbConnection. (0ms).
+2024-05-24 18:42:01.010 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-05-24 18:42:01.011 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-05-24 18:42:01.012 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:42:01.015 +03:00 [DBG] Opened connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:42:01.016 +03:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:42:01.022 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:42:01.034 +03:00 [DBG] Context 'GameLibraryDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:42:01.037 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.Data.Contexts.GameLibraryDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-24 18:42:01.037 +03:00 [DBG] Closing data reader to 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:42:01.041 +03:00 [DBG] A data reader for 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' is being disposed after spending 16ms reading results.
+2024-05-24 18:42:01.044 +03:00 [DBG] Closing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:42:01.165 +03:00 [DBG] Closed connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' (88ms).
+2024-05-24 18:42:01.177 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI) in 517.4881ms
+2024-05-24 18:42:01.180 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:42:01.182 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at GL.Repositories.Implementations.UsersRepository.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.Repositories\Implementations\UsersRepository.cs:line 29
+   at GL.ApplicationServices.Implementations.UsersService.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.ApplicationServices\Implementations\UsersService.cs:line 66
+   at GL.WebAPI.Controllers.AuthenticationController.Login(UserLoginDTO userLogin) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Controllers\AuthenticationController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-24 18:42:01.206 +03:00 [DBG] Connection id "0HN3S0VJQ4DGH" completed keep alive response.
+2024-05-24 18:42:01.206 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 18:42:01.208 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:42:01.209 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-05-24 18:42:01.210 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51 - 500 - text/plain;+charset=utf-8 580.3584ms
+2024-05-24 18:50:00.968 +03:00 [INF] Application is starting!
+2024-05-24 18:50:01.450 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2024-05-24 18:50:01.507 +03:00 [DBG] Hosting starting
+2024-05-24 18:50:01.532 +03:00 [INF] User profile is available. Using 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-24 18:50:01.535 +03:00 [DBG] Reading data from file 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys\key-b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc.xml'.
+2024-05-24 18:50:01.542 +03:00 [DBG] Found key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc}.
+2024-05-24 18:50:01.550 +03:00 [DBG] Considering key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} with expiration date 2024-08-20 10:36:09Z as default key.
+2024-05-24 18:50:01.552 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 18:50:01.555 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-24 18:50:01.556 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 18:50:01.560 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-24 18:50:01.561 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-24 18:50:01.563 +03:00 [DBG] Using key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} as the default key.
+2024-05-24 18:50:01.564 +03:00 [DBG] Key ring with default key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} was loaded during application startup.
+2024-05-24 18:50:01.647 +03:00 [INF] Now listening on: http://localhost:5105
+2024-05-24 18:50:01.648 +03:00 [DBG] Loaded hosting startup assembly GL.WebAPI
+2024-05-24 18:50:01.649 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-24 18:50:01.650 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-24 18:50:01.651 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-24 18:50:01.651 +03:00 [INF] Hosting environment: Development
+2024-05-24 18:50:01.652 +03:00 [INF] Content root path: D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary
+2024-05-24 18:50:01.653 +03:00 [DBG] Hosting started
+2024-05-24 18:50:01.789 +03:00 [DBG] Connection id "0HN3S14M3716P" received FIN.
+2024-05-24 18:50:01.789 +03:00 [DBG] Connection id "0HN3S14M3716O" received FIN.
+2024-05-24 18:50:01.825 +03:00 [DBG] Connection id "0HN3S14M3716O" accepted.
+2024-05-24 18:50:01.825 +03:00 [DBG] Connection id "0HN3S14M3716P" accepted.
+2024-05-24 18:50:01.829 +03:00 [DBG] Connection id "0HN3S14M3716O" started.
+2024-05-24 18:50:01.829 +03:00 [DBG] Connection id "0HN3S14M3716P" started.
+2024-05-24 18:50:01.840 +03:00 [DBG] Connection id "0HN3S14M3716O" sending FIN because: "The client closed the connection."
+2024-05-24 18:50:01.840 +03:00 [DBG] Connection id "0HN3S14M3716P" sending FIN because: "The client closed the connection."
+2024-05-24 18:50:01.844 +03:00 [DBG] Connection id "0HN3S14M3716O" disconnecting.
+2024-05-24 18:50:01.844 +03:00 [DBG] Connection id "0HN3S14M3716P" disconnecting.
+2024-05-24 18:50:01.849 +03:00 [DBG] Connection id "0HN3S14M3716P" stopped.
+2024-05-24 18:50:01.849 +03:00 [DBG] Connection id "0HN3S14M3716O" stopped.
+2024-05-24 18:50:02.114 +03:00 [DBG] Connection id "0HN3S14M3716Q" accepted.
+2024-05-24 18:50:02.117 +03:00 [DBG] Connection id "0HN3S14M3716Q" started.
+2024-05-24 18:50:02.117 +03:00 [DBG] Connection id "0HN3S14M3716R" accepted.
+2024-05-24 18:50:02.121 +03:00 [DBG] Connection id "0HN3S14M3716R" started.
+2024-05-24 18:50:02.171 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - -
+2024-05-24 18:50:02.198 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-24 18:50:02.228 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-24 18:50:02.231 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:50:02.362 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-24 18:50:02.490 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-24 18:50:02.491 +03:00 [DBG] Connection id "0HN3S14M3716Q" completed keep alive response.
+2024-05-24 18:50:02.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - - - 200 - text/html;charset=utf-8 325.7056ms
+2024-05-24 18:50:02.621 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_vs/browserLink - -
+2024-05-24 18:50:02.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - -
+2024-05-24 18:50:02.639 +03:00 [DBG] Connection id "0HN3S14M3716Q" completed keep alive response.
+2024-05-24 18:50:02.641 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 17.8291ms
+2024-05-24 18:50:02.659 +03:00 [DBG] Connection id "0HN3S14M3716R" completed keep alive response.
+2024-05-24 18:50:02.661 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.0527ms
+2024-05-24 18:50:03.585 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - -
+2024-05-24 18:50:03.587 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-24 18:50:03.587 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 18:50:03.704 +03:00 [DBG] Connection id "0HN3S14M3716R" completed keep alive response.
+2024-05-24 18:50:03.705 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.5533ms
+2024-05-24 18:50:24.717 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/register application/json 83
+2024-05-24 18:50:24.733 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/register'
+2024-05-24 18:50:24.738 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)' with route pattern 'api/Authentication/register' is valid for the request path '/api/Authentication/register'
+2024-05-24 18:50:24.740 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:50:24.742 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 18:50:24.817 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 18:50:24.821 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:50:24.844 +03:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(GL.ApplicationServices.DTOs.UserRegistrationDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 18:50:24.848 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 18:50:24.849 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 18:50:24.850 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 18:50:24.853 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 18:50:24.854 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 18:50:24.857 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:50:24.979 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-24 18:50:24.999 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:50:25.006 +03:00 [DBG] Attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' ...
+2024-05-24 18:50:25.011 +03:00 [DBG] Attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' using the name '' in request data ...
+2024-05-24 18:50:25.014 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 18:50:25.051 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000003": started reading request body.
+2024-05-24 18:50:25.053 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000003": done reading request body.
+2024-05-24 18:50:25.059 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'
+2024-05-24 18:50:25.060 +03:00 [DBG] Done attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:50:25.062 +03:00 [DBG] Done attempting to bind parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:50:25.064 +03:00 [DBG] Attempting to validate the bound parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO' ...
+2024-05-24 18:50:25.080 +03:00 [DBG] Done attempting to validate the bound parameter 'userRegistration' of type 'GL.ApplicationServices.DTOs.UserRegistrationDTO'.
+2024-05-24 18:50:25.659 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 18:50:25.687 +03:00 [DBG] 'GameLibraryDbContext' generated a temporary value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:50:25.742 +03:00 [DBG] Context 'GameLibraryDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:50:25.747 +03:00 [DBG] SaveChanges starting for 'GameLibraryDbContext'.
+2024-05-24 18:50:25.750 +03:00 [DBG] DetectChanges starting for 'GameLibraryDbContext'.
+2024-05-24 18:50:25.762 +03:00 [DBG] DetectChanges completed for 'GameLibraryDbContext'.
+2024-05-24 18:50:25.809 +03:00 [DBG] Creating DbConnection.
+2024-05-24 18:50:25.833 +03:00 [DBG] Created DbConnection. (22ms).
+2024-05-24 18:50:25.836 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:26.029 +03:00 [DBG] Opened connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:26.036 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 18:50:26.042 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-05-24 18:50:26.051 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2024-05-24 18:50:26.059 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [Email], [IsActivated], [Password], [UpdatedBy], [UpdatedOn], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-24 18:50:26.115 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = Boolean), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedBy], [CreatedOn], [Email], [IsActivated], [Password], [UpdatedBy], [UpdatedOn], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-24 18:50:26.133 +03:00 [DBG] The foreign key property 'User.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-05-24 18:50:26.143 +03:00 [DBG] Closing data reader to 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:26.150 +03:00 [DBG] A data reader for 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' is being disposed after spending 28ms reading results.
+2024-05-24 18:50:26.154 +03:00 [DBG] Closing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:26.160 +03:00 [DBG] Closed connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' (5ms).
+2024-05-24 18:50:26.168 +03:00 [DBG] An entity of type 'User' tracked by 'GameLibraryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:50:26.171 +03:00 [DBG] SaveChanges completed for 'GameLibraryDbContext' with 1 entities written to the database.
+2024-05-24 18:50:26.176 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-24 18:50:26.179 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-05-24 18:50:26.180 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-24 18:50:26.181 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-24 18:50:26.182 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-24 18:50:26.183 +03:00 [INF] Executing OkObjectResult, writing value of type 'GL.ApplicationServices.DTOs.UserDTO'.
+2024-05-24 18:50:26.195 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI) in 1336.6095ms
+2024-05-24 18:50:26.197 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Register (GL.WebAPI)'
+2024-05-24 18:50:26.198 +03:00 [DBG] Connection id "0HN3S14M3716R" completed keep alive response.
+2024-05-24 18:50:26.200 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 18:50:26.203 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:26.205 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-05-24 18:50:26.206 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/register application/json 83 - 200 - application/json;+charset=utf-8 1488.5451ms
+2024-05-24 18:50:44.230 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51
+2024-05-24 18:50:44.233 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/login'
+2024-05-24 18:50:44.234 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)' with route pattern 'api/Authentication/login' is valid for the request path '/api/Authentication/login'
+2024-05-24 18:50:44.237 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:50:44.238 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 18:50:44.241 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 18:50:44.242 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:50:44.247 +03:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(GL.ApplicationServices.DTOs.UserLoginDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 18:50:44.249 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 18:50:44.250 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 18:50:44.255 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 18:50:44.257 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 18:50:44.259 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 18:50:44.261 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:50:44.263 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:50:44.265 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:50:44.266 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' using the name '' in request data ...
+2024-05-24 18:50:44.270 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 18:50:44.274 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000004": started reading request body.
+2024-05-24 18:50:44.275 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000004": done reading request body.
+2024-05-24 18:50:44.278 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserLoginDTO'
+2024-05-24 18:50:44.279 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:50:44.281 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:50:44.284 +03:00 [DBG] Attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:50:44.289 +03:00 [DBG] Done attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:50:44.367 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 18:50:44.416 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(u => u.Username == __username_0)'
+2024-05-24 18:50:44.565 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedBy (int) Required, 1], [Property: User.CreatedOn (DateTime) Required, 2], [Property: User.Email (string) Required MaxLength(100), 3], [Property: User.IsActivated (bool) Required, 4], [Property: User.Password (string) Required MaxLength(100), 5], [Property: User.UpdatedBy (int?), 6], [Property: User.UpdatedOn (DateTime?), 7], [Property: User.Username (string) Required MaxLength(50), 8] }
+            SELECT TOP(2) u.Id, u.CreatedBy, u.CreatedOn, u.Email, u.IsActivated, u.Password, u.UpdatedBy, u.UpdatedOn, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        GL.Data.Contexts.GameLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-05-24 18:50:44.603 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 18:50:44.604 +03:00 [DBG] Creating DbConnection.
+2024-05-24 18:50:44.606 +03:00 [DBG] Created DbConnection. (1ms).
+2024-05-24 18:50:44.607 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-05-24 18:50:44.608 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-05-24 18:50:44.609 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:44.611 +03:00 [DBG] Opened connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:44.612 +03:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:50:44.619 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:50:44.630 +03:00 [DBG] Context 'GameLibraryDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:50:44.632 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.Data.Contexts.GameLibraryDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-24 18:50:44.635 +03:00 [DBG] Closing data reader to 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:44.641 +03:00 [DBG] A data reader for 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' is being disposed after spending 18ms reading results.
+2024-05-24 18:50:44.779 +03:00 [DBG] Closing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:44.781 +03:00 [DBG] Closed connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' (13ms).
+2024-05-24 18:50:44.781 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI) in 520.3194ms
+2024-05-24 18:50:44.784 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:50:44.795 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at GL.Repositories.Implementations.UsersRepository.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.Repositories\Implementations\UsersRepository.cs:line 29
+   at GL.ApplicationServices.Implementations.UsersService.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.ApplicationServices\Implementations\UsersService.cs:line 66
+   at GL.WebAPI.Controllers.AuthenticationController.Login(UserLoginDTO userLogin) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Controllers\AuthenticationController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-24 18:50:44.842 +03:00 [DBG] Connection id "0HN3S14M3716R" completed keep alive response.
+2024-05-24 18:50:44.844 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 18:50:44.845 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:50:44.846 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-05-24 18:50:44.848 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51 - 500 - text/plain;+charset=utf-8 617.9616ms
+2024-05-24 18:55:17.742 +03:00 [DBG] Connection id "0HN3S14M3716Q" received FIN.
+2024-05-24 18:55:17.775 +03:00 [DBG] Connection id "0HN3S14M3716Q" sending FIN because: "The client closed the connection."
+2024-05-24 18:55:17.776 +03:00 [DBG] Connection id "0HN3S14M3716Q" disconnecting.
+2024-05-24 18:55:17.784 +03:00 [DBG] Connection id "0HN3S14M3716Q" stopped.
+2024-05-24 18:55:31.150 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51
+2024-05-24 18:55:31.152 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/login'
+2024-05-24 18:55:31.153 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)' with route pattern 'api/Authentication/login' is valid for the request path '/api/Authentication/login'
+2024-05-24 18:55:31.156 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:55:31.157 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 18:55:31.160 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 18:55:31.161 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:55:31.163 +03:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(GL.ApplicationServices.DTOs.UserLoginDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 18:55:31.165 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 18:55:31.166 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 18:55:31.168 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 18:55:31.170 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 18:55:31.176 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 18:55:31.178 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:55:31.182 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 18:55:31.184 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:55:31.185 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' using the name '' in request data ...
+2024-05-24 18:55:31.187 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 18:55:31.191 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000005": started reading request body.
+2024-05-24 18:55:31.192 +03:00 [DBG] Connection id "0HN3S14M3716R", Request id "0HN3S14M3716R:00000005": done reading request body.
+2024-05-24 18:55:31.193 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserLoginDTO'
+2024-05-24 18:55:31.194 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:55:31.195 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:55:31.197 +03:00 [DBG] Attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 18:55:31.199 +03:00 [DBG] Done attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 18:55:31.209 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 18:55:31.212 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 18:55:31.213 +03:00 [DBG] Creating DbConnection.
+2024-05-24 18:55:31.214 +03:00 [DBG] Created DbConnection. (0ms).
+2024-05-24 18:55:31.215 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-05-24 18:55:31.216 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-05-24 18:55:31.217 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:55:31.219 +03:00 [DBG] Opened connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:55:31.222 +03:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:55:31.225 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[CreatedBy], [u].[CreatedOn], [u].[Email], [u].[IsActivated], [u].[Password], [u].[UpdatedBy], [u].[UpdatedOn], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2024-05-24 18:55:31.226 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.Data.Contexts.GameLibraryDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-24 18:55:31.229 +03:00 [DBG] Context 'GameLibraryDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-24 18:55:31.299 +03:00 [DBG] Closing data reader to 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:55:31.300 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI) in 121.3435ms
+2024-05-24 18:55:31.300 +03:00 [DBG] A data reader for 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' is being disposed after spending 71ms reading results.
+2024-05-24 18:55:31.302 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 18:55:31.303 +03:00 [DBG] Closing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:55:31.305 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at GL.Repositories.Implementations.UsersRepository.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.Repositories\Implementations\UsersRepository.cs:line 29
+   at GL.ApplicationServices.Implementations.UsersService.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.ApplicationServices\Implementations\UsersService.cs:line 66
+   at GL.WebAPI.Controllers.AuthenticationController.Login(UserLoginDTO userLogin) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Controllers\AuthenticationController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-24 18:55:31.306 +03:00 [DBG] Closed connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB' (2ms).
+2024-05-24 18:55:31.332 +03:00 [DBG] Connection id "0HN3S14M3716R" completed keep alive response.
+2024-05-24 18:55:31.335 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 18:55:31.336 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 18:55:31.337 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-05-24 18:55:31.339 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51 - 500 - text/plain;+charset=utf-8 188.6463ms
+2024-05-24 19:37:00.059 +03:00 [INF] Application is starting!
+2024-05-24 19:37:00.593 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider"]
+2024-05-24 19:37:00.647 +03:00 [DBG] Hosting starting
+2024-05-24 19:37:00.687 +03:00 [INF] User profile is available. Using 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-24 19:37:00.691 +03:00 [DBG] Reading data from file 'C:\Users\shado\AppData\Local\ASP.NET\DataProtection-Keys\key-b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc.xml'.
+2024-05-24 19:37:00.699 +03:00 [DBG] Found key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc}.
+2024-05-24 19:37:00.706 +03:00 [DBG] Considering key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} with expiration date 2024-08-20 10:36:09Z as default key.
+2024-05-24 19:37:00.708 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 19:37:00.710 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-24 19:37:00.712 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-24 19:37:00.715 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-24 19:37:00.718 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-24 19:37:00.720 +03:00 [DBG] Using key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} as the default key.
+2024-05-24 19:37:00.720 +03:00 [DBG] Key ring with default key {b9e33d74-e2dd-48a1-a038-3b0a0b7c76cc} was loaded during application startup.
+2024-05-24 19:37:00.811 +03:00 [INF] Now listening on: http://localhost:5105
+2024-05-24 19:37:00.812 +03:00 [DBG] Loaded hosting startup assembly GL.WebAPI
+2024-05-24 19:37:00.813 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-24 19:37:00.815 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-24 19:37:00.816 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-24 19:37:00.816 +03:00 [INF] Hosting environment: Development
+2024-05-24 19:37:00.817 +03:00 [INF] Content root path: D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary
+2024-05-24 19:37:00.818 +03:00 [DBG] Hosting started
+2024-05-24 19:37:00.971 +03:00 [DBG] Connection id "0HN3S1UU9191D" received FIN.
+2024-05-24 19:37:00.971 +03:00 [DBG] Connection id "0HN3S1UU9191E" received FIN.
+2024-05-24 19:37:00.976 +03:00 [DBG] Connection id "0HN3S1UU9191D" accepted.
+2024-05-24 19:37:00.976 +03:00 [DBG] Connection id "0HN3S1UU9191E" accepted.
+2024-05-24 19:37:00.977 +03:00 [DBG] Connection id "0HN3S1UU9191D" started.
+2024-05-24 19:37:00.977 +03:00 [DBG] Connection id "0HN3S1UU9191E" started.
+2024-05-24 19:37:00.984 +03:00 [DBG] Connection id "0HN3S1UU9191E" sending FIN because: "The client closed the connection."
+2024-05-24 19:37:00.984 +03:00 [DBG] Connection id "0HN3S1UU9191D" sending FIN because: "The client closed the connection."
+2024-05-24 19:37:00.987 +03:00 [DBG] Connection id "0HN3S1UU9191E" disconnecting.
+2024-05-24 19:37:00.987 +03:00 [DBG] Connection id "0HN3S1UU9191D" disconnecting.
+2024-05-24 19:37:00.990 +03:00 [DBG] Connection id "0HN3S1UU9191E" stopped.
+2024-05-24 19:37:00.990 +03:00 [DBG] Connection id "0HN3S1UU9191D" stopped.
+2024-05-24 19:37:01.132 +03:00 [DBG] Connection id "0HN3S1UU9191F" accepted.
+2024-05-24 19:37:01.133 +03:00 [DBG] Connection id "0HN3S1UU9191F" started.
+2024-05-24 19:37:01.133 +03:00 [DBG] Connection id "0HN3S1UU9191G" accepted.
+2024-05-24 19:37:01.136 +03:00 [DBG] Connection id "0HN3S1UU9191G" started.
+2024-05-24 19:37:01.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - -
+2024-05-24 19:37:01.246 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-24 19:37:01.271 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-24 19:37:01.273 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 19:37:01.364 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-24 19:37:01.434 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-24 19:37:01.435 +03:00 [DBG] Connection id "0HN3S1UU9191F" completed keep alive response.
+2024-05-24 19:37:01.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - - - 200 - text/html;charset=utf-8 264.6742ms
+2024-05-24 19:37:01.529 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_vs/browserLink - -
+2024-05-24 19:37:01.530 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - -
+2024-05-24 19:37:01.539 +03:00 [DBG] Connection id "0HN3S1UU9191F" completed keep alive response.
+2024-05-24 19:37:01.541 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.9850ms
+2024-05-24 19:37:01.551 +03:00 [DBG] Connection id "0HN3S1UU9191G" completed keep alive response.
+2024-05-24 19:37:01.553 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.1727ms
+2024-05-24 19:37:02.142 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - -
+2024-05-24 19:37:02.143 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-24 19:37:02.144 +03:00 [DBG] Request did not match any endpoints
+2024-05-24 19:37:02.252 +03:00 [DBG] Connection id "0HN3S1UU9191G" completed keep alive response.
+2024-05-24 19:37:02.254 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.6050ms
+2024-05-24 19:37:16.318 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51
+2024-05-24 19:37:16.323 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Authentication/login'
+2024-05-24 19:37:16.326 +03:00 [DBG] Endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)' with route pattern 'api/Authentication/login' is valid for the request path '/api/Authentication/login'
+2024-05-24 19:37:16.327 +03:00 [DBG] Request matched endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 19:37:16.329 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-24 19:37:16.366 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-05-24 19:37:16.368 +03:00 [INF] Executing endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 19:37:16.385 +03:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(GL.ApplicationServices.DTOs.UserLoginDTO) on controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI).
+2024-05-24 19:37:16.387 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-24 19:37:16.388 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-24 19:37:16.389 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-05-24 19:37:16.390 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-24 19:37:16.391 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-05-24 19:37:16.393 +03:00 [DBG] Executing controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 19:37:16.467 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-24 19:37:16.481 +03:00 [DBG] Executed controller factory for controller GL.WebAPI.Controllers.AuthenticationController (GL.WebAPI)
+2024-05-24 19:37:16.484 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 19:37:16.486 +03:00 [DBG] Attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' using the name '' in request data ...
+2024-05-24 19:37:16.488 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-24 19:37:16.511 +03:00 [DBG] Connection id "0HN3S1UU9191G", Request id "0HN3S1UU9191G:00000003": started reading request body.
+2024-05-24 19:37:16.512 +03:00 [DBG] Connection id "0HN3S1UU9191G", Request id "0HN3S1UU9191G:00000003": done reading request body.
+2024-05-24 19:37:16.515 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'GL.ApplicationServices.DTOs.UserLoginDTO'
+2024-05-24 19:37:16.516 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 19:37:16.517 +03:00 [DBG] Done attempting to bind parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 19:37:16.517 +03:00 [DBG] Attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO' ...
+2024-05-24 19:37:16.524 +03:00 [DBG] Done attempting to validate the bound parameter 'userLogin' of type 'GL.ApplicationServices.DTOs.UserLoginDTO'.
+2024-05-24 19:37:16.912 +03:00 [DBG] Entity Framework Core 7.0.19 initialized 'GameLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.19' with options: MigrationsAssembly=GL.WebAPI 
+2024-05-24 19:37:16.945 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(u => u.Username == __username_0)'
+2024-05-24 19:37:17.043 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreatedBy (int) Required, 1], [Property: User.CreatedOn (DateTime) Required, 2], [Property: User.Email (string) Required MaxLength(100), 3], [Property: User.IsActivated (bool) Required, 4], [Property: User.Password (string) Required MaxLength(100), 5], [Property: User.UpdatedBy (int?), 6], [Property: User.UpdatedOn (DateTime?), 7], [Property: User.Username (string) Required MaxLength(50), 8] }
+            SELECT TOP(2) u.Id, u.CreatedBy, u.CreatedOn, u.Email, u.IsActivated, u.Password, u.UpdatedBy, u.UpdatedOn, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        GL.Data.Contexts.GameLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-05-24 19:37:17.069 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-24 19:37:17.071 +03:00 [DBG] Creating DbConnection.
+2024-05-24 19:37:17.083 +03:00 [DBG] Created DbConnection. (10ms).
+2024-05-24 19:37:17.089 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (18ms).
+2024-05-24 19:37:17.096 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (27ms).
+2024-05-24 19:37:17.100 +03:00 [DBG] Opening connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 19:37:17.188 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'GL.Data.Contexts.GameLibraryDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-05-24 19:37:17.260 +03:00 [INF] Executed action GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI) in 866.0812ms
+2024-05-24 19:37:17.262 +03:00 [INF] Executed endpoint 'GL.WebAPI.Controllers.AuthenticationController.Login (GL.WebAPI)'
+2024-05-24 19:37:17.263 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at GL.Repositories.Implementations.UsersRepository.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.Repositories\Implementations\UsersRepository.cs:line 29
+   at GL.ApplicationServices.Implementations.UsersService.GetUserByUsernameAsync(String username) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GL.ApplicationServices\Implementations\UsersService.cs:line 66
+   at GL.WebAPI.Controllers.AuthenticationController.Login(UserLoginDTO userLogin) in D:\Uni stuff\Razpredeleni Prilojeniq\Project\GameLibrary\GameLibrary\Controllers\AuthenticationController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-24 19:37:17.282 +03:00 [DBG] Connection id "0HN3S1UU9191G" completed keep alive response.
+2024-05-24 19:37:17.283 +03:00 [DBG] 'GameLibraryDbContext' disposed.
+2024-05-24 19:37:17.288 +03:00 [ERR] An error occurred using the connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 19:37:17.288 +03:00 [DBG] Disposing connection to database 'GameLibraryDatabase' on server '(LocalDb)\MSSQLLocalDB'.
+2024-05-24 19:37:17.294 +03:00 [DBG] A query was canceled for context type 'GL.Data.Contexts.GameLibraryDbContext'.
+2024-05-24 19:37:17.296 +03:00 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-05-24 19:37:17.359 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Authentication/login application/json 51 - 500 - text/plain;+charset=utf-8 1040.0706ms
